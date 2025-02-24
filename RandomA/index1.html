@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .notes {
+            max-width: 900px;
+            margin: 20px auto;
+        }
+        h1 {
+            font-size: 2em;
+        }
+        .note {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .note span {
+            font-weight: normal;
+        }
+        .danger {
+            background-color: #fde8e8;
+            border-left: 10px solid red;
+        }
+        .success {
+            background-color: #e8fdea;
+            border-left: 10px solid green;
+        }
+        .info {
+            background-color: #e8f1fd;
+            border-left: 10px solid blue;
+        }
+        .warning {
+            background-color: #fdf7e8;
+            border-left: 10px solid gold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="notes">
+        <h1>Notes</h1>
+
+        <div class="note danger">
+            <strong>Danger! </strong><span>Some text...</span>
+        </div>
+
+        <div class="note success">
+            <strong>Success! </strong><span>Some text...</span>
+        </div>
+
+        <div class="note info">
+            <strong>Info! </strong><span>Some text...</span>
+        </div>
+
+        <div class="note warning">
+            <strong>Warning! </strong><span>Some text...</span>
+        </div>
+
+    </div>
+
+</body>
+</html>
